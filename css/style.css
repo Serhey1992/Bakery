@@ -363,9 +363,14 @@ body{
     line-height: 1.5;
 }
 .buy-now{
+    max-width: 1920px;
+    margin: 0 auto;
     padding: 80px 0;
     text-align: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/buy-now-img.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/buy-now-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .buy-now__inner{
     margin-bottom: 60px;
@@ -426,4 +431,57 @@ body{
     color: #2D3748;
     background-color: #FFD324;
     border-radius: 30px;
+}
+.page-footer{
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.footer-map{
+    width: 945px;
+    height: 566px;
+}
+.footer-info{
+    width: 975px;
+    padding: 36px 194px 20px 30px;
+    background-color: #2D3748;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/footer-bgi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer__logo{
+    margin-bottom: 30px;
+}
+.footer-info__box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 134px;
+}
+.footer-info__item{
+    margin-bottom: 30px;
+}
+.footer-info__item:last-child{
+    margin-bottom: 0;
+}
+.footer-info__link,
+.contacts__item{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+.contacts__item{
+    margin-bottom: 30px;
+}
+.contacts__item:last-child{
+    margin-bottom: 0;
+}
+.copy{
+    font-family: 'Blogger Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #FFFFFF;
 }
